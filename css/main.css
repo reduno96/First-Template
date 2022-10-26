@@ -258,7 +258,7 @@ body {
     margin-bottom: 40px
 }
 
-.services .services-content image{
+.services .services-content .image img{
     width: 500px;
     height: 500px;
 }
