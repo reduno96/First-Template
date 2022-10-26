@@ -253,13 +253,13 @@ body {
     margin-top:100px;
 }
 
-.services .services-content .srv{
+.services .services-content .sev{
     display: flex;
     margin-bottom: 40px
 }
 
 @media (max-width: 767px){
-    .services .services-content .srv{
+    .services .services-content .sev{
         flex-direction: column;
         text-align: center;
     }
