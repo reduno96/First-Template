@@ -258,6 +258,13 @@ body {
     margin-bottom: 40px
 }
 
+@media (max-width: 767px){
+    .services .services-content .srv{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
 .services .services-content .image img{
     width: 260px;
     height: 360px;
