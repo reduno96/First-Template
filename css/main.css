@@ -253,6 +253,11 @@ body {
     margin-top:100px;
 }
 
+.services .services-content .srv{
+    display: flex;
+    margin-bottom: 40px
+}
+
 .services .services-content image{
     width: 500px;
     height: 500px;
