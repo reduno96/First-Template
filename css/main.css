@@ -172,7 +172,7 @@ body {
 
 /* Start Landing  Section */
 .landing {
-    background-image: url(/img/mountain.jpg);
+    background-image: url(../img/mountain.jpg);
     background-size: cover;
     height: calc(100vh - 64px);
     position: relative;
