@@ -246,6 +246,15 @@ body {
     padding-left: 60px;
 }
 
+.services .services-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top:100px;
+}
 
-
+.services .services-content image{
+    width: 500px;
+    height: 500px;
+}
 /* End Services */
