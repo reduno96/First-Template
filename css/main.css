@@ -241,5 +241,9 @@ body {
 /* End Feature  */
 
 /* Start Services */
+.services{
+    padding-top: 60px;
+    padding-left: 60px;
+}
 
 /* End Services */
