@@ -1,7 +1,7 @@
 /*Start Variables*/
 :root {
     --main-color: #10cab7;
-
+    --secondary-color: #2c4755;
 }
 /*End Variables*/
 
@@ -268,6 +268,35 @@ body {
 .services .services-content .sev i{
     color: var(--main-color);
     flex-basis: 60px;
+}
+.services .services-content .sev .text{
+    flex: 1;
+}
+
+.services .services-content .sev .text h3{
+    margin: 0 0 20px;
+}
+
+.services .services-content .sev .text p{
+    color: #2c2c2c;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.services .services-content .image{
+    text-align: center;
+    position: relative;
+}
+
+.services .services-content .image::before{
+    content: "";
+    background-color: var(--secondary-color);
+    width: 100px;
+    height: calc(100% + 100px);
+    top: -50px;
+    position: absolute;
+    right: 0;
+    z-index: -1;
 }
 
 .services .services-content .image img{
