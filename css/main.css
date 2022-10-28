@@ -280,7 +280,7 @@ body {
 .services .services-content .sev .text p{
     color: #2c2c2c;
     font-weight: 400;
-    line-height: 1.8;
+    line-height: 1.6;
 }
 
 .services .services-content .image{
@@ -288,7 +288,7 @@ body {
     position: relative;
 }
 
-.services .services-content .image::before{
+/* .services .services-content .image::before{
     content: "";
     background-color: var(--secondary-color);
     width: 100px;
@@ -297,11 +297,11 @@ body {
     position: absolute;
     right: 0;
     z-index: -1;
-}
+} */
 
 .services .services-content .image img{
-    width: 260px;
-    height: 360px;
+    width: 300px;
+    height: 600px;
 }
 
 
