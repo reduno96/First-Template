@@ -265,8 +265,15 @@ body {
     }
 }
 
+.services .services-content .sev i{
+    color: var(--main-color);
+    flex-basis: 60px;
+}
+
 .services .services-content .image img{
     width: 260px;
     height: 360px;
 }
+
+
 /* End Services */
