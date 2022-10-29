@@ -248,7 +248,7 @@ body {
 /* Start Services */
 .services{
     padding-top: var(--section-padding);
-    padding-left: var(--section-padding);
+    padding-bottom: var(--section-padding);
 }
 
 .services .services-content{
@@ -258,11 +258,10 @@ body {
     margin-top:100px;
 }
 
-
 .services .services-content .sev{
     display: flex;
     margin-bottom: 40px;
-    background-color: var(--section-color);
+    background-color: rgba(233, 229, 229, 0.5);
 }
 
 @media (max-width: 767px){
