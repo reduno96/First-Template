@@ -258,6 +258,7 @@ body {
     margin-top:100px;
 }
 
+
 .services .services-content .sev{
     display: flex;
     margin-bottom: 40px;
@@ -276,6 +277,7 @@ body {
     flex-basis: 60px;
     font-size: 2em;
     text-align: center;
+    margin: 10px -20px 0 0;
 }
 .services .services-content .sev .text{
     flex: 1;
