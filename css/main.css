@@ -217,7 +217,7 @@ body {
 
 .feature .container {
     display:grid;
-    grid-template-columns: repeat(auto-fill, minmaxtext(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
 }
 
@@ -274,6 +274,8 @@ body {
 .services .services-content .sev i{
     color: var(--main-color);
     flex-basis: 60px;
+    font-size: 2em;
+    text-align: center;
 }
 .services .services-content .sev .text{
     flex: 1;
