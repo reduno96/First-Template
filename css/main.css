@@ -2,6 +2,11 @@
 :root {
     --main-color: #10cab7;
     --secondary-color: #2c4755;
+    --heading-color: #f6f6f6;
+    --section-color:rgba(233, 229, 229, 0.271);
+    --text-color:#2c2c2c;
+    --section-padding: 60px;
+
 }
 /*End Variables*/
 
@@ -60,7 +65,7 @@ body {
     margin:-30px 0 0;
     font-size:20px;
     text-align: center;
-    color: #2c2c2c;
+    color: var(--text-color);
 }
 
 @media (max-width: 767px){
@@ -130,7 +135,7 @@ body {
     list-style: none;
     margin: 0px;
     padding: 0px;
-    background-color: #f6f6f6;
+    background-color: var(--heading-color);
     position: absolute;
     right: 0;
     min-width: 170px;
@@ -142,7 +147,7 @@ body {
     content: "";
     border-width: 10px;
     border-style: solid;
-    border-color: #ff000000 #00800000 #f6f6f6 transparent;
+    border-color: #ff000000 #00800000 var(--heading-color) transparent;
     position: absolute;
     right: 5px;
     top: -20px;
@@ -205,9 +210,9 @@ body {
 
 /* Start Feature  */
 .feature {
-    padding-top: 60px ;
-    padding-bottom: 60px ;
-    background-color: #f6f6f6;
+    padding-top: var(--section-padding) ;
+    padding-bottom: var(--section-padding);
+    background-color: var(--heading-color);
 }
 
 .feature .container {
@@ -218,7 +223,7 @@ body {
 
 .feature .feat{
     padding: 20px;
-    background-color:  rgba(233, 229, 229, 0.271);
+    background-color:  var(--section-color);
     text-align: center;
 }
 
@@ -234,7 +239,7 @@ body {
 
 .feature .feat p{
     line-height: 1.8;
-    color: #2c2c2c;
+    color: var(--text-color);
     font-size: 15px
 }
 
@@ -242,8 +247,8 @@ body {
 
 /* Start Services */
 .services{
-    padding-top: 60px;
-    padding-left: 60px;
+    padding-top: var(--section-padding);
+    padding-left: var(--section-padding);
 }
 
 .services .services-content{
@@ -255,7 +260,8 @@ body {
 
 .services .services-content .sev{
     display: flex;
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    background-color: var(--section-color);
 }
 
 @media (max-width: 767px){
@@ -271,7 +277,6 @@ body {
 }
 .services .services-content .sev .text{
     flex: 1;
-    background-color:  rgba(233, 229, 229, 0.271);
     height: 270px;
     padding: 20px;
 }
@@ -281,7 +286,7 @@ body {
 }
 
 .services .services-content .sev .text p{
-    color: #2c2c2c;
+    color: var(--text-color);
     font-weight: 400;
     line-height: 1.6;
 }
@@ -311,6 +316,13 @@ body {
         display: none;
     }
 }
-
-
 /* End Services */
+
+/* Start Portfolio */
+.portfolio {
+    padding-top: 60px ;
+    padding-bottom: 60px ;
+    background-color: #f6f6f6;
+}
+
+/* End Portfolio */
