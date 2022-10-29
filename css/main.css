@@ -271,6 +271,9 @@ body {
 }
 .services .services-content .sev .text{
     flex: 1;
+    background-color:  rgba(233, 229, 229, 0.271);
+    height: 270px;
+    padding: 20px;
 }
 
 .services .services-content .sev .text h3{
@@ -301,7 +304,12 @@ body {
 
 .services .services-content .image img{
     width: 320px;
-    height: 550px;
+    height: 575px;
+}
+@media (max-width: 1199px) {
+    .image-media{
+        display: none;
+    }
 }
 
 
