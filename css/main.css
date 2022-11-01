@@ -349,13 +349,24 @@ body {
     max-width: 100%;
 }
 
-.portfolio .portfolio-content .card{
+.portfolio .portfolio-content .card h3{
     margin: 0px ;
 }
 
+.portfolio .portfolio-content .card p{
+    color:var(--text-color);
+    line-height: 1.6;
+    margin-bottom: 0px;
+}
 
+@media (max-width: 767px) {
+    
+    .portfolio .portfolio-content .card .info{
+        text-align: center;
+    }
+    
+}
 .portfolio .portfolio-content .card .info{
-    padding: 10px;
-
+    padding: 20px;
 }
 /* End Portfolio */
