@@ -341,4 +341,21 @@ body {
     margin-top: 80px;
 }
 
+.portfolio .portfolio-content .card{
+    background-color: white;
+}
+
+.portfolio .portfolio-content .card img{
+    max-width: 100%;
+}
+
+.portfolio .portfolio-content .card{
+    margin: 0px ;
+}
+
+
+.portfolio .portfolio-content .card .info{
+    padding: 10px;
+
+}
 /* End Portfolio */
