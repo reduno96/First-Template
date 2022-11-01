@@ -334,6 +334,11 @@ body {
     background-color: var(--heading-color);
 }
 
-
+.portfolio .portfolio-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 80px;
+}
 
 /* End Portfolio */
