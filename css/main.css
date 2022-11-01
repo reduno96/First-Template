@@ -276,7 +276,7 @@ body {
     flex-basis: 20px;
     font-size: 2em;
     text-align: center;
-    margin: 10px 0 0;
+    margin: 15px 0 0 20px;
 }
 .services .services-content .sev .text{
     flex: 1;
@@ -314,6 +314,12 @@ body {
     width: 320px;
     height: 575px;
 }
+@media (max-width: 767px) {
+    .services .services-content .sev i {
+        margin: 10px 0 0;
+    }
+}
+
 @media (max-width: 1199px) {
     .image-media{
         display: none;
@@ -323,9 +329,11 @@ body {
 
 /* Start Portfolio */
 .portfolio {
-    padding-top: 60px ;
-    padding-bottom: 60px ;
-    background-color: #f6f6f6;
+    padding-top: var(--section-padding); ;
+    padding-bottom: var(--section-padding);
+    background-color: var(--heading-color);
 }
+
+
 
 /* End Portfolio */
