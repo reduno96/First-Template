@@ -473,8 +473,15 @@ body {
     text-align: center;
 }
 
+.contact .info .social{
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+    font-size: 16px;
+
+}
 .contact .info .label{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 800;
     color: var(--secondary-color);
     letter-spacing: -2px;
@@ -483,11 +490,22 @@ body {
 
 .contact .info .link {
     display: block;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 800;
     color: var(--main-color);
     text-decoration: none;
 }
 
+.contact .info .social i{
+    margin-left: 10px;
+    color: var(--secondary-color);
+}
+
+@media (max-width:767px){
+    .contact .info .label,
+    .contact .info .link{
+        font-size: 25px;
+    } 
+}
 
 /* End Contact */
