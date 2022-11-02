@@ -1,6 +1,6 @@
 /*Start Variables*/
 :root {
-    --main-color: #10cab7;
+    --main-color: #FF5714;
     --secondary-color: #2c4755;
     --heading-color: #f6f6f6;
     --section-color:rgba(233, 229, 229, 0.271);
@@ -509,3 +509,13 @@ body {
 }
 
 /* End Contact */
+
+/* Start Footer */
+    .footer{
+        background-color: var(--secondary-color);
+        color: white;
+        padding: 30px 10px;
+        text-align: center;
+        font-size: 18px;
+    }
+/* End Footer */
