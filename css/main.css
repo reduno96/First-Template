@@ -175,14 +175,6 @@ body {
 
 /* End header */
 
-/* Start root class */
-.grid-3{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-}
-
-/* End root class */
-
 /* Start Landing  Section */
 .landing {
     background-image: url(../img/mountain.jpg);
@@ -224,6 +216,8 @@ body {
 }
 
 .feature .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
 }
 
@@ -258,6 +252,8 @@ body {
 }
 
 .services .services-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 30px;
     margin-top:100px;
 }
@@ -339,6 +335,8 @@ body {
 }
 
 .portfolio .portfolio-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 30px;
     margin-top: 80px;
 }
