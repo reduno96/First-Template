@@ -6,6 +6,7 @@
     --section-color:rgba(233, 229, 229, 0.271);
     --text-color:#2c2c2c;
     --section-padding: 60px;
+    --main-duration: 0.3s;
 
 }
 /*End Variables*/
@@ -15,6 +16,10 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 body {
@@ -120,7 +125,7 @@ body {
 
 .header .links .icon span:nth-child(2) {
     width: 60%;
-    transition: 0.3s;
+    transition: var(--main-duration);
 }
 
 .header .links .icon span:last-child {
@@ -162,7 +167,7 @@ body {
     padding: 5px;
     text-decoration: none;
     color: #333;
-    transition: 0.3s;
+    transition: var(--main-duration);
 }
 
 .header .links ul li a:hover {
